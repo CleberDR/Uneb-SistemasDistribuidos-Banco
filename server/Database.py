@@ -1,6 +1,6 @@
 import mysql.connector
 
-class MySQLDatabase:
+class Database:
     def __init__(self, host, username, password, database):
         self.host = host
         self.username = username
