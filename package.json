@@ -1,6 +1,7 @@
 {
   "scripts": {
     "server": "python3 server/main.py",
-    "client": "python3 client/main.py"
+    "client": "python3 client/main.py",
+    "db": "docker-compose up db"
   }
 }

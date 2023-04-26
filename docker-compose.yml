@@ -2,10 +2,11 @@ version: '3.9'
 
 services:
   db:
-    image: mysql:latest
+    image: mysql:8.0.20
     environment:
-      MYSQL_ROOT_USER: root
+      MYSQL_ROOT_USER: root 
       MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
       MYSQL_DATABASE: bank
       MYSQL_PASSWORD: root
     ports:
