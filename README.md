@@ -12,5 +12,5 @@ $ npm run server
 
 Inicie os clients com o comando:
 ```bash
-$ npm run 
+$ npm run client
 ```
